@@ -1,0 +1,12 @@
+#Hugo
+#0 Loop
+
+result = 0
+n = ""
+while n != 0:
+    n = int(input("Please enter a number: "))
+    if n == int("0"): 
+        result = result + n
+        print(result)
+    else:
+        print("Try again")
