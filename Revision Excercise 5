@@ -1,0 +1,16 @@
+#Hugo
+#Revision Excercise 5
+
+no_of_numbers = int(input("Please enter how many numbers you will be averaging: "))
+
+average_counter = int("0")
+number = int("0")
+while average_counter < no_of_numbers:
+    new_number = int(input("Please enter your number: "))
+    number = number + new_number
+    average_counter = average_counter + 1
+
+average_value = number/no_of_numbers
+print("The average of your values is {0}.".format(average_value))
+
+    
