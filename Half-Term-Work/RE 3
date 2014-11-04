@@ -1,0 +1,11 @@
+#Hugo
+#Revision Excercise 3
+
+number_of_averages = int(input("How many numbers will you be averaging: "))
+total_number = 0
+for count in range(number_of_averages):
+    new_number = int(input("Please enter a number: "))
+    total_number = total_number + new_number
+
+average = total_number/number_of_averages
+print(average)
