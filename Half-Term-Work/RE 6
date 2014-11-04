@@ -1,0 +1,9 @@
+#Hugo
+#Revision Excercise 6
+
+
+print("|kg|lb|")
+for kg in range (1,21):
+    pounds = kg * 2.2
+    print("|{0:^2}|{1:^2}|".format(kg, pounds))
+    
