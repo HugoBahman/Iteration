@@ -1,0 +1,19 @@
+#Hugo
+#Revision Excercise 5
+
+print("To stop putting in numbers, enter '-1'.")
+
+number = 1
+total_number = 0
+count = 0
+while number > 0:
+    number = int(input("Please enter a number: "))
+    if number > 0:
+        total_number = total_number + number
+        count = count + 1
+    else:
+        number = 0
+        
+
+average = total_number/count
+print(average)
