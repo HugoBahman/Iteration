@@ -1,0 +1,9 @@
+#Hugo
+
+rows = int(input("How many rows would you like: "))
+columns = int(input("How many columns would you like: "))
+
+for row in range(rows):              
+    for column in range(columns):    #These two lines are responsible for creating the stars in every row
+        print("*", end="")           #By having the end of the line have a blank character, it stops it from printing on the next row
+    print("")                        #This blank entry means that it will set python to print on the next line
