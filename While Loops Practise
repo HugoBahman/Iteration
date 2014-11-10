@@ -1,0 +1,13 @@
+__author__ = 'Hugo'
+
+no_1 = int(input("Enter first number: "))
+no_2 = int(input("Enter second number: "))
+
+product = no_1*no_2
+
+count = 1
+while count <= product:
+    print(count)
+    count += 1
+
+print("{0} is a rad fella".format(__author__))
